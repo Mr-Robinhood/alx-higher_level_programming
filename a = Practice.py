@@ -1,5 +1,9 @@
 def print_list_integer(my_list=[]):
-    n = 0 
-    for n in range (len(my_list)):
-        print("{:d}\n").format(my_list[n])
-  
+
+    
+    for x in my_list:
+        print(x)
+#Example Usage :    
+            
+my_list=[1,2,4,5,6,7,8,9]
+print_list_integer(my_list)
