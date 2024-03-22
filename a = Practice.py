@@ -1,9 +1,17 @@
-def print_list_integer(my_list=[]):
+  
+def common_elements(set_1, set_2):
+       """
+       A function that returns a set of
+       common elements in two sets
+       """
+       return (set_1 & set_2)
 
-    
-    for x in my_list:
-        print(x)
 #Example Usage :    
             
-my_list=[1,2,4,5,6,7,8,9]
-print_list_integer(my_list)
+#common_elements = __import__.common_elements
+
+
+set_1 = {12,2,5,6,8}
+set_2 = {12,4,2,1,4}
+c_set = common_elements(set_1, set_2)
+print(sorted(list(c_set)))
