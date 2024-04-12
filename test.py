@@ -1,9 +1,13 @@
-#how tall  is the tree
-tree = int(input("how tall is the tree"))
-while True:
-    for i  in range (tree):
-        print ("#", end="\n")
+global_var = 10
 
-#how many row  
+def func():
 
+    ans = 0
 
+    for i in range (1000):
+
+        ans+= global_var * i
+
+        return ans
+    
+func()
