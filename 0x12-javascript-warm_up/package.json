@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@eslint/config-array": "^0.16.0",
+    "@eslint/object-schema": "^2.1.4",
+    "foreground-child": "^3.2.1",
+    "glob": "^10.4.2",
+    "inflight": "^1.0.6",
+    "jackspeak": "^3.4.0",
+    "minimatch": "^9.0.4",
+    "path-scurry": "^1.11.1",
+    "rimraf": "^5.0.7",
+    "signal-exit": "^4.1.0"
+  }
+}
