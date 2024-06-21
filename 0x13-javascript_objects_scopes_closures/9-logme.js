@@ -1,8 +1,8 @@
 #!/usr/bin/node
-// converts a number from base 10 to another base passed as argument.
+// prints the number of arguments already printed and the new argument value.
 
-exports.converter = function (base) {
-  return function (n) {
-    return (n.toString(base));
-  };
+let i = 0;
+exports.logMe = function (item) {
+  console.log(i + ': ' + item);
+  i++;
 };
